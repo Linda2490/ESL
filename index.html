@@ -24,16 +24,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    
   </head>
   <body>
     <header class="header">
       <div class="head-container">
         <div class="position">
           <img class="logo" src="logo.svg" />
-          <h1 style="color: white; font-weight: 600; font-size: 3em">
+          <h1 class="subtitle-one">
             E.S.L's Outlook integration
           </h1>
-          <p style="color: white; font-weight: 400; font-size: 1.5em">
+          <p class="subtitle">
             Add-in Installation & User Guide Manual
           </p>
         </div>
@@ -89,7 +90,8 @@
         </div>
         <div class="col-sm-6">
           <iframe
-            width="574"
+            class="ok"
+            width="420"
             height="284"
             src="https://www.youtube.com/embed/DfCXAR1phg0"
             title="YouTube video player"
@@ -103,7 +105,7 @@
       <div class="row">
         <div class="col-sm-6">
           <iframe
-            width="574"
+            width="420"
             height="284"
             src="https://www.youtube.com/embed/DfCXAR1phg0"
             title="YouTube video player"
@@ -184,7 +186,7 @@
         </div>
         <div class="col-sm-6">
           <iframe
-            width="574"
+            width="420"
             height="284"
             src="https://www.youtube.com/embed/DfCXAR1phg0"
             title="YouTube video player"
@@ -297,11 +299,11 @@
           <p style="font-weight: 600; font-size: 20px; margin-top: 2px">
             How to save last state ?
           </p>
-          <img class="plus-icon" src="fig4.svg" />
+          <img id="minus-icon" class="plus-icon" src="fig4.svg" onclick="hide()"   />
         </div>
         <hr />
         <div>
-          <p>
+          <p >
             The last item you worked on will be saved automatically for later
             use within the Outlook add-in, you can change this behavior from the
             'Settings' menu.
@@ -343,7 +345,7 @@
         </div>
         <div class="col-sm-6">
           <iframe
-            width="574"
+            width="420"
             height="284"
             src="https://www.youtube.com/embed/DfCXAR1phg0"
             title="YouTube video player"
@@ -378,5 +380,7 @@
       </div>
       <img class="logoo" src="logo.svg" />
     </div>
+    <script src="Toggle.js"></script>
   </body>
+  
 </html>

@@ -36,6 +36,11 @@ body {
 
   height: 100%;
 }
+.subtitle-one {
+  color: white;
+  font-weight: 600;
+  font-size: 3em;
+}
 .title {
   text-align: center;
   color: #4f9efb;
@@ -79,6 +84,9 @@ body {
 .plus-icon {
   width: 2.5%;
 }
+.minuss-icon {
+  background-image: url(fig8.svg) no-repeat;
+}
 .section-two {
   display: flex;
   flex-direction: column;
@@ -116,13 +124,43 @@ iframe {
   margin-bottom: 5em;
   width: 20%;
 }
-@media (max-width: 768px) {
+.subtitle {
+  color: white;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+@media screen and (max-width: 780px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .logo {
+    width: 40%;
+  }
   .position {
     font-size: calc(0.525rem + 1.3vw);
     margin-top: -30rem;
   }
   .title {
-    margin-top: -25rem;
+    margin-top: -5rem;
     font-size: 2em;
   }
+  
+  .section-two {
+  
+  margin: 1em 1em;
+  align-items: center;
+  
+}
+ .box {
+  
+  width: 25em;
+  height: 20em;
+  padding: 40px 20px;
+  
+} 
+ .logoo {
+  
+  width: 30%;
+}
 }
