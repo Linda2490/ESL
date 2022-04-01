@@ -83,6 +83,7 @@ body {
 }
 .plus-icon {
   width: 2.5%;
+  cursor: pointer;
 }
 .minuss-icon {
   background-image: url(fig8.svg) no-repeat;
